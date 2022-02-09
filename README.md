@@ -3,6 +3,10 @@
 
 Eu desenvolvi esse código após ver uma publicação em um grupo do Facebook, usando o PHPMailer e o SendGrid para enviar emails, abaixo tem o passo a passo de como usar
 
+## É necessário!
+- Composer instalado
+- Git instalado
+- Conta no SendGrid (abaixo tem explicando o passo a passo de como criar a conta)
 
 ## Instalação
 
@@ -11,7 +15,7 @@ Eu desenvolvi esse código após ver uma publicação em um grupo do Facebook, u
 ```
 git clone https://github.com/marcelonralves/send-mail
 ```
-2 - Após o clone, basta usar o comando composer install (para instalar as dependências como o PHPMailer)
+2 - Após o clone, acesse a pasta que teve o 'clone' e use o comando composer install (para instalar as dependências como o PHPMailer)
 
 ```
 composer install
@@ -31,4 +35,4 @@ composer install
 
 7 - Copie os dados gerados e cole no arquivo config.php (o que você renomeou)
 
-8 - 8 - Agora tudo configurado! Para testar, basta preencher as variáveis na index.php com o email que você quer enviar e toda vez que você acessar esse index.php pelo navegador ele irá enviar um email!
+8 - Agora tudo configurado! Para testar, basta preencher as variáveis na index.php com o email que você quer enviar e toda vez que você acessar esse index.php pelo navegador ele irá enviar um email!
